@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="from">From</string>
+    <string name="export">EXPORT</string>
+    <string name="median">Median:</string>
+    <string name="day1">Day 1:</string>
+    <string name="day2">Day 2:</string>
+    <string name="baseURl">
+        https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.historicaldata%20where%20symbol%20%3D%20%22AAPL%22%20and%20startDate%20%3D%20%22%s%22%20and%20endDate%20%3D%20%22%s%22&amp;format=json&amp;diagnostics=true&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&amp;callback=
+    </string>
+    <string name="first"><![CDATA[|<]]></string>
+    <string name="prev"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+    <string name="last"><![CDATA[>|]]></string>
+</resources>
